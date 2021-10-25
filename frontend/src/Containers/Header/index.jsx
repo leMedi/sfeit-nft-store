@@ -12,7 +12,7 @@ export const Header = () => {
   const { active, activate, account } = useWeb3React();
   const balance = useBalance(localProvider, account);
 
-  useEffect(() => authenticate(), []);
+  // useEffect(() => authenticate(), []);
 
   async function authenticate() {
     await activate(MetaMask);

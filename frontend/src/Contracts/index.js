@@ -1,5 +1,3 @@
-import Greeter from "./Greeter.json";
-
 const config = {
   deployedContracts: {},
   externalContracts: {
